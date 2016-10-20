@@ -1,0 +1,31 @@
+{
+  "name": "git-dump",
+  "description": "Dump the contents of a remote git repository without directory listing enabled",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/bahamas10/git-dump",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "for f in test/*.js; do echo \"$f\"; node \"$f\" || exit 1; echo; done; echo 'Passed'"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "git-dump": "./git-dump"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "request": "^2.75.0",
+    "vasync": "^1.6.4"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "git",
+    "dump"
+  ]
+}
