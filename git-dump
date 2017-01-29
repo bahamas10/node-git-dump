@@ -68,7 +68,7 @@ function filetohash(f) {
 
 var downloaded = {};
 var queue = vasync.queue(function (f, cb) {
-  f.replace(/^\/*/, '');
+  f = f.replace(/^\/*/, '');
 
   // we've already processed this file
   if (downloaded.hasOwnProperty(f)) {
