@@ -1,4 +1,4 @@
- [![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#git-dump)
+ [![Rawsec's CyberSecurity Inventory](https://inventory.raw.pm/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.raw.pm/tools.html#git-dump)
  [![GitHub stars](https://img.shields.io/github/stars/bahamas10/node-git-dump.svg)](https://github.com/bahamas10/node-git-dump/stargazers)
  [![GitHub license](https://img.shields.io/github/license/bahamas10/node-git-dump.svg)](https://github.com/bahamas10/node-git-dump)
  
